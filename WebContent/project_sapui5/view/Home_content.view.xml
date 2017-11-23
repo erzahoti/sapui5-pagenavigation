@@ -1,0 +1,17 @@
+<core:View
+        xmlns="sap.m"
+        xmlns:tnt="sap.tnt"
+        xmlns:l="sap.ui.layout"
+        xmlns:core="sap.ui.core"
+        xmlns:mvc="sap.ui.core.mvc"
+        controllerName="project_sapui5.controller.Home_content">
+
+            <VBox fitContainer="true">
+                
+              		
+				<Text text = "tekste rreth FLY.com, fotografi, reklama" id="test"></Text>
+				
+				
+            </VBox>
+
+</core:View>

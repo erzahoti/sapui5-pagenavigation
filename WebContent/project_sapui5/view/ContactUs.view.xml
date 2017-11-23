@@ -1,0 +1,32 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+        xmlns:tnt="sap.tnt"
+        xmlns:l="sap.ui.layout"
+		controllerName="project_sapui5.controller.ContactUs"
+		 xmlns:html="http://www.w3.org/1999/xhtml">
+	
+		<l:VerticalLayout
+		class="sapUiContentPadding"
+		width="100%"
+		>
+		
+		<l:content justifyContent="Center">
+			<Label text="Name" labelFor="name" />
+			<Input id="name" required="true" width="30%"/>
+			
+			<Label text="Email" labelFor="email" design="Bold" />
+			<Input id="email"  required="true" width="30%"/>
+			
+			<Label text="Phone" labelFor="phone"/>
+			<Input id="phone"  required="true" width="30%"/>
+			
+			<Label text="Subject" labelFor="subject"/>
+			<Input id="subject"  required="true" width="30%"/>
+			
+			<Label text="Message" labelFor="message"/>
+			<Input id="message"  required="true" width="30%"/>
+			
+			
+			<Button text="SEND MESSAGE" id="btn"></Button>
+		</l:content>
+	</l:VerticalLayout>
+</core:View>

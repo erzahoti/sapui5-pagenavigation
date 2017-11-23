@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-theme="sap_belize"
+				 data-sap-ui-libs="sap.ui.commons,sap.ui.table,sap.ui.ux3"
+                data-sap-ui-resourceroots='{"project_sapui5": "./"}'>
+		</script>
+		
+		<link href="style.css" rel="stylesheet" type="text/css">
+		
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme
+		
+		<link href="project_sapui5/assets/css/style.css" rel="stylesheet" type="text/css">
+		 -->
+
+		
+		
+		<script>
+        sap.ui.getCore().attachInit(function() {
+            sap.ui.require([
+                "sap/ui/core/ComponentContainer"
+            ], function() {
+                new sap.ui.core.ComponentContainer({
+                    name: "project_sapui5"
+                }).placeAt("content");
+            });
+        });
+    </script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

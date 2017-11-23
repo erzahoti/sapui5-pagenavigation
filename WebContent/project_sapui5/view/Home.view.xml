@@ -1,0 +1,54 @@
+<core:View xmlns:core="sap.ui.core" 
+          xmlns:mvc="sap.ui.core.mvc" 
+          height="100%"
+          xmlns="sap.m" 
+          xmlns:tnt="sap.tnt"
+		controllerName="project_sapui5.controller.Home" xmlns:html="http://www.w3.org/1999/xhtml">
+		
+   <Page
+		class="sapUiContentPadding"
+		enableScrolling="false" >
+	
+		
+		 <customHeader>
+           <Bar>
+             <contentLeft>
+                 <Button text="LOGO" type="Transparent" press="navToHome"/>
+              </contentLeft>
+                 <contentRight>
+		            <Button text="Home" type="Transparent" press="navToHome" />
+					<Button text="Product" type="Transparent" press="navToProduct" />
+					<Button text="Customers - Feedback" type="Transparent" press="navToCustomers"/>
+					<Button text="Contact us" type="Transparent" press="navToContactUs"/> 
+					<Button text="Login" press="handleUserNamePress"/>   
+                </contentRight>
+                
+           </Bar>
+      </customHeader>
+		<content>
+			<VBox>
+			
+			 <App id="app_root">
+             </App>
+			
+				</VBox>
+				
+		</content>
+		
+		
+		
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Fly PROJECT" type="Transparent" />
+			    <Button text="Erza Hoti" type="Transparent" />
+			</Toolbar>
+		</footer>
+
+ 
+   
+
+
+			 
+</Page>
+</core:View>

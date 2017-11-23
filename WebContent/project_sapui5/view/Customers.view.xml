@@ -1,0 +1,10 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+xmlns:tnt="sap.tnt"
+		controllerName="project_sapui5.controller.Customers"
+		 xmlns:html="http://www.w3.org/1999/xhtml">
+	
+	<VBox fitContainer="true">
+	
+	<Text text="Feedback nga perdoruesi"/>
+	</VBox>
+</core:View>
